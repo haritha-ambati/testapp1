@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_acer_testapp1.thjk</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>thjk</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var thjk = Class.create();
+thjk.prototype = {
+    initialize: function() {
+    },
+
+    type: 'thjk'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-07-06 10:26:59</sys_created_on>
+        <sys_id>19e50c6f9cf98b50f8778c0d12f99639</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>thjk</sys_name>
+        <sys_package display_value="testapp1" source="x_acer_testapp1">14e3806b9cf98b50f8778c0d12f9964d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="testapp1">14e3806b9cf98b50f8778c0d12f9964d</sys_scope>
+        <sys_update_name>sys_script_include_19e50c6f9cf98b50f8778c0d12f99639</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-07-06 10:26:59</sys_updated_on>
+    </sys_script_include>
+</record_update>
